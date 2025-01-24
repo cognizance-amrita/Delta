@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
           // Initialising the canvas
           var canvas = document.querySelector('#frontbg'),
           ctx = canvas.getContext('2d');
+          
       
           // Setting the width and height of the canvas
           canvas.width = window.innerWidth;
@@ -38,8 +39,36 @@ document.addEventListener('DOMContentLoaded', () => {
           }
           }
           }
-          // Loop the animation
           setInterval(draw, 50);
+
+
+
+          window.onload = function() {
+            const audio1 = document.getElementById('myAudio');
+            audio1.play();
+            audio1.muted = false;
+          };
+        
+});
+
+        //-----------------------------------------------------------------------audio--------------------------------------------------------------------
+
+        function toggleMute() {
+        var audio = document.getElementById('myAudio');
+        const icon1 = document.querySelector('.playButton_1 span i');
+        
+        if (audio.muted) {
+          audio.play();
+          audio.muted = false;
+          icon1.classList.remove('fa-volume-xmark');
+          icon1.classList.add('fa-volume-high');
+        } else {
+          audio.muted = true;
+          icon1.classList.remove('fa-volume-high');
+          icon1.classList.add('fa-volume-xmark');
+        }
+      }
+
+      toggleMute();
       
-      });
       

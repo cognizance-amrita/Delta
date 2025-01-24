@@ -233,3 +233,17 @@ li img{
         transform: translateY(-10px);
     }
 }
+
+/*=============================================================== Audio ==========================================================*/
+  
+  .fa-volume-high:hover{
+  color: greenyellow;
+  }
+  
+  .fa-volume-xmark:hover{
+  color: red;
+  }
+
+  .fas {
+    color: white;
+  }

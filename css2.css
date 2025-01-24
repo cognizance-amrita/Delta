@@ -60,6 +60,15 @@
 
 }
 
+@media only screen and (max-width: 600px){
+
+    .Title_text img{
+        width: 200px;
+        height: auto;
+    }
+
+}
+
 @media only screen and (max-width: 330px){
 
     .timecontainer li{
