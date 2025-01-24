@@ -245,5 +245,7 @@ li img{
   }
 
   .fas {
+    margin-top: 10px;
+    margin-left: 10px;
     color: white;
   }
