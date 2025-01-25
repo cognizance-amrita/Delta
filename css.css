@@ -79,6 +79,11 @@ body{
     margin-bottom:50px;
 }
 
+.cog{
+    height: 40px;
+    width: auto;
+}
+
 hr{
     border: 0; 
     height: 1px;
