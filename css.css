@@ -210,6 +210,13 @@ img{
     animation: nametransition 3s ease-in-out infinite;
 }
 
+.cog_email{
+    font-size: large;
+    color: white;
+    position: absolute;
+    right: 10px;
+}
+
 @keyframes nametransition {
     0% {
         opacity: 0;
