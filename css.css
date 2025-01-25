@@ -158,6 +158,9 @@ li img{
     width: auto;
     align-self: center;
     border-radius: 10px;
+    background-color: black;
+    content: "Loading...";
+    color: #ffffff;
 }
 
 .joinqr{
