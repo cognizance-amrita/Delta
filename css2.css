@@ -125,6 +125,20 @@
         animation: nametransition 3s ease-in-out infinite;
     }
 
+    .cog_email{
+        display: none;
+    }
+
+    .cog_email2{
+        display: block;
+        color: white;
+        background-color: black;
+    }
+    .cog_email2 b{
+        margin-left:30px;
+        top: -100px;
+    }
+
 }
 
 /*================================================================  ================================================================*/

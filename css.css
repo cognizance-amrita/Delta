@@ -217,6 +217,10 @@ img{
     right: 10px;
 }
 
+.cog_email2{
+    display: none;
+}
+
 @keyframes nametransition {
     0% {
         opacity: 0;
