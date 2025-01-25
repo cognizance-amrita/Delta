@@ -55,17 +55,19 @@ document.addEventListener('DOMContentLoaded', () => {
           // Function to toggle audio mute/unmute
           function toggleMute() {
             var audio = document.getElementById('myAudio');
-            const icon1 = document.querySelector('.playButton_1 span i');
+            const icon1 = document.querySelector('.playButton_1 i');
             
             if (audio.muted) {
               audio.muted = false;
               audio.play(); // Ensure it's playing when unmuted
               icon1.classList.remove('fa-volume-xmark');
               icon1.classList.add('fa-volume-high');
+              icon1.classList.add('rot_anime');
             } else {
               audio.muted = true;
               icon1.classList.remove('fa-volume-high');
               icon1.classList.add('fa-volume-xmark');
+              icon1.classList.remove('rot_anime');
             }
           }
 

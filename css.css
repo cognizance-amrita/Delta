@@ -251,11 +251,33 @@ li img{
 
   .fas {
     font-size: 20px;
+    position: absolute;
+    color: black;
+ }
+
+  .playButton_1{
     position: fixed;
     margin-top: 15px;
     margin-left: 15px;
-    color: black;
     background-color: #ffffff;
-    padding: 10px;
+    height: 50px;
+    width: 50px;
     border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .rot_anime{
+    animation: rot 3s linear infinite;
+  }
+
+  @keyframes rot {
+    0%{
+        rotate: 0deg;
+    }
+
+    100%{
+        rotate: 360deg;
+    }
   }
