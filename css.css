@@ -159,8 +159,15 @@ li img{
     align-self: center;
     border-radius: 10px;
     background-color: black;
+}
+
+li img::before {
     content: "Loading...";
     color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .joinqr{
