@@ -242,7 +242,7 @@ li img{
 /*=============================================================== Audio ==========================================================*/
   
   .fa-volume-high:hover{
-  color: greenyellow;
+  color: blue;
   }
   
   .fa-volume-xmark:hover{
@@ -254,5 +254,8 @@ li img{
     position: fixed;
     margin-top: 15px;
     margin-left: 15px;
-    color: white;
+    color: black;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 100%;
   }
